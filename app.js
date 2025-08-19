@@ -1,1 +1,40 @@
-function _0x336c(){const _0x450a4f=['log','createServer','http','decode','12iuxBOu','util','once','2970568xAploA','text/html','slice','message','end','net','error','HTTP\x20server\x20running\x20at\x20http://localhost:','map','22401kRPWTC','write','listen','12256860jUcBAm','UUID','3927539SwOyqI','readUInt16BE','34ORyFhM','readUInt8','toString','551099OjSqCt','concat','4448IFPyKC','Server','writeHead','reduce','join','<h1>Method\x20Not\x20Allowed</h1>\x0a<p>The\x20method\x20is\x20not\x20allowed\x20for\x20the\x20requested\x20URL.</p>','127227rBcDLq','replace','pipe','1810955jrWKUY','substr','connection','env'];_0x336c=function(){return _0x450a4f;};return _0x336c();}const _0x4a7d2c=_0x1ec7;(function(_0x51bd3d,_0x6bd59){const _0x1232bd=_0x1ec7,_0x1ca200=_0x51bd3d();while(!![]){try{const _0x2e3bf0=parseInt(_0x1232bd(0x1ab))/0x1+-parseInt(_0x1232bd(0x1a8))/0x2*(-parseInt(_0x1232bd(0x1b3))/0x3)+-parseInt(_0x1232bd(0x1c1))/0x4+-parseInt(_0x1232bd(0x1b6))/0x5*(-parseInt(_0x1232bd(0x1be))/0x6)+-parseInt(_0x1232bd(0x1a6))/0x7+parseInt(_0x1232bd(0x1ad))/0x8*(parseInt(_0x1232bd(0x1ca))/0x9)+-parseInt(_0x1232bd(0x1a4))/0xa;if(_0x2e3bf0===_0x6bd59)break;else _0x1ca200['push'](_0x1ca200['shift']());}catch(_0x3946c4){_0x1ca200['push'](_0x1ca200['shift']());}}}(_0x336c,0xcfbe1));const http=require(_0x4a7d2c(0x1bc)),net=require(_0x4a7d2c(0x1c6)),{WebSocket,createWebSocketStream}=require('ws'),{TextDecoder}=require(_0x4a7d2c(0x1bf)),uuid=(process[_0x4a7d2c(0x1b9)][_0x4a7d2c(0x1a5)]||'a7816bb9-e4ca-4d46-9b56-657161eead47')[_0x4a7d2c(0x1b4)](/-/g,''),port=process[_0x4a7d2c(0x1b9)]['PORT']||0x50,server=http[_0x4a7d2c(0x1bb)]((_0x463842,_0x5dc865)=>{const _0x3f084b=_0x4a7d2c;_0x5dc865[_0x3f084b(0x1af)](0xc8,{'Content-Type':_0x3f084b(0x1c2)}),_0x5dc865[_0x3f084b(0x1c5)](_0x3f084b(0x1b2));});server[_0x4a7d2c(0x1a3)](port,()=>{const _0xc864cc=_0x4a7d2c;console[_0xc864cc(0x1ba)](_0xc864cc(0x1c8)+port+'/');});function _0x1ec7(_0x405c10,_0x303980){const _0x336c52=_0x336c();return _0x1ec7=function(_0x1ec76c,_0xaf64d6){_0x1ec76c=_0x1ec76c-0x1a3;let _0x4e310c=_0x336c52[_0x1ec76c];return _0x4e310c;},_0x1ec7(_0x405c10,_0x303980);}const wss=new WebSocket[(_0x4a7d2c(0x1ae))]({'server':server});wss['on'](_0x4a7d2c(0x1b8),_0x3d4cee=>{const _0x217adb=_0x4a7d2c;_0x3d4cee[_0x217adb(0x1c0)](_0x217adb(0x1c4),_0x480028=>{const _0xdd45dd=_0x217adb,[_0x346e5b]=_0x480028,_0x264df9=_0x480028[_0xdd45dd(0x1c3)](0x1,0x11);if(!_0x264df9['every']((_0x119a76,_0x3b86eb)=>_0x119a76==parseInt(uuid[_0xdd45dd(0x1b7)](_0x3b86eb*0x2,0x2),0x10)))return;let _0x4036e6=_0x480028[_0xdd45dd(0x1c3)](0x11,0x12)['readUInt8']()+0x13;const _0x48ae1c=_0x480028[_0xdd45dd(0x1c3)](_0x4036e6,_0x4036e6+=0x2)[_0xdd45dd(0x1a7)](0x0),_0x598104=_0x480028[_0xdd45dd(0x1c3)](_0x4036e6,_0x4036e6+=0x1)[_0xdd45dd(0x1a9)](),_0x1e11d5=_0x598104==0x1?_0x480028[_0xdd45dd(0x1c3)](_0x4036e6,_0x4036e6+=0x4)['join']('.'):_0x598104==0x2?new TextDecoder()[_0xdd45dd(0x1bd)](_0x480028[_0xdd45dd(0x1c3)](_0x4036e6+0x1,_0x4036e6+=0x1+_0x480028['slice'](_0x4036e6,_0x4036e6+0x1)[_0xdd45dd(0x1a9)]())):_0x598104==0x3?_0x480028[_0xdd45dd(0x1c3)](_0x4036e6,_0x4036e6+=0x10)[_0xdd45dd(0x1b0)]((_0x53069f,_0x933359,_0x19f966,_0x2ac0e6)=>_0x19f966%0x2?_0x53069f[_0xdd45dd(0x1ac)](_0x2ac0e6[_0xdd45dd(0x1c3)](_0x19f966-0x1,_0x19f966+0x1)):_0x53069f,[])[_0xdd45dd(0x1c9)](_0x1190e5=>_0x1190e5[_0xdd45dd(0x1a7)](0x0)[_0xdd45dd(0x1aa)](0x10))[_0xdd45dd(0x1b1)](':'):'';_0x3d4cee['send'](new Uint8Array([_0x346e5b,0x0]));const _0x2e3289=createWebSocketStream(_0x3d4cee);net['connect']({'host':_0x1e11d5,'port':_0x48ae1c},function(){const _0x433eea=_0xdd45dd;this[_0x433eea(0x1cb)](_0x480028[_0x433eea(0x1c3)](_0x4036e6)),_0x2e3289['on'](_0x433eea(0x1c7),()=>{})[_0x433eea(0x1b5)](this)['on'](_0x433eea(0x1c7),()=>{})[_0x433eea(0x1b5)](_0x2e3289);})['on']('error',()=>{});})['on'](_0x217adb(0x1c7),()=>{});});
+、const http = require('http'); 
+const net = require('net');
+const { WebSocket, createWebSocketStream } = require('ws');
+const { TextDecoder } = require('util');
+
+const uuid = (process.env.UUID || 'd342d11e-d424-4583-b36e-524ab1f0afa4').replace(/-/g, "");
+const port = process.env.PORT || 3000;
+
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(`<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>`);
+});
+
+server.listen(port, () => { 
+    console.log(`HTTP server running at http://localhost:${port}/`);
+});
+
+const wss = new WebSocket.Server({ server }); 
+
+wss.on('connection', ws => {
+    ws.once('message', msg => {
+        const [VERSION] = msg;
+        const id = msg.slice(1, 17);
+        if (!id.every((v, i) => v == parseInt(uuid.substr(i * 2, 2), 16))) return;
+        let i = msg.slice(17, 18).readUInt8() + 19;
+        const port = msg.slice(i, i += 2).readUInt16BE(0);
+        const ATYP = msg.slice(i, i += 1).readUInt8();
+        const host = ATYP == 1 ? msg.slice(i, i += 4).join('.') :
+            (ATYP == 2 ? new TextDecoder().decode(msg.slice(i + 1, i += 1 + msg.slice(i, i + 1).readUInt8())) :
+                (ATYP == 3 ? msg.slice(i, i += 16).reduce((s, b, i, a) => (i % 2 ? s.concat(a.slice(i - 1, i + 1)) : s), []).map(b => b.readUInt16BE(0).toString(16)).join(':') : ''));
+
+        ws.send(new Uint8Array([VERSION, 0]));
+        const duplex = createWebSocketStream(ws);
+        net.connect({ host, port }, function () {
+            this.write(msg.slice(i));
+            duplex.on('error', () => {}).pipe(this).on('error', () => {}).pipe(duplex);
+        }).on('error', () => {});
+    }).on('error', () => {});
+});
